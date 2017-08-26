@@ -1,0 +1,41 @@
+:local(.searchInput) {
+  border-radius: 0;
+  border-color: #ABAAAA;
+  border-left: 0;
+  border-right: 0;
+}
+
+:local(.searchList) {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+:local(.searchListItem) {
+  list-style: none;
+  padding: 20px 10px 20px 20px;
+  background-color: white;
+  border-bottom: 1px solid #E3E3E3;
+  display: flex;
+}
+
+:local(.searchInfos) {
+  flex: 1 0 auto;
+}
+
+:local(.searchInfos span) {
+  font-weight: bold;
+}
+
+:local(.searchActions) {
+  flex: 0 0 90px;
+}
+
+:local(.btnAction), :local(.btnAction):active, :local(.btnAction):focus, :local(.btnAction):hover {
+  margin-right: 5px;
+  color: #5C75B0;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
